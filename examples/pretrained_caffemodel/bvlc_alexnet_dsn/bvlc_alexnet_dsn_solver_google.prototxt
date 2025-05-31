@@ -1,0 +1,15 @@
+net: "/home/stu_3/Documents/caffe/examples/pretrained_caffemodel/bvlc_alexnet_dsn/bvlc_alexnet_dsn_train_val_google.prototxt"
+test_iter: 10
+test_interval: 1000
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.5
+stepsize: 20000
+display: 500
+max_iter: 200000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 100000
+snapshot_prefix: "/home/stu_3/Documents/caffe/examples/pretrained_caffemodel/bvlc_alexnet_dsn/output1/caffe_alexnet_train_google"
+solver_mode: GPU
+device_id:1
